@@ -1,6 +1,10 @@
 # 제목 : N과 M (4)
 # 출처 : 백준
 # 작성자 : 원현섭
+# 정리 : 노션
+"""
+https://www.notion.so/wonseop/M-N-4-1a535effc17780888eb2c75a65d18f5d
+"""
 
 import sys
 
