@@ -1,5 +1,6 @@
 import sys, os
 
+# https://halo.oopy.io/1bbacfa8-9c47-80d9-83ab-d66f19f5ccd2
 SIZE= 9
 input=sys.stdin.readline
 sudoku=[list(map(int,input().split())) for _ in range(SIZE)]
@@ -37,12 +38,12 @@ def dfs(n):
             for value in row:
                 print(value,end=" ")
             print()
-        exit()
+        sys.exit()
         
     for value in range(1,10):   # value : 1~9
         y=blank[n][0]
         x=blank[n][1]
-        if  box_check(y,x,value)and row_check(y,value) and col_check(x, value):
+        if  box_check(y,x,value) and row_check(y,value) and col_check(x, value):
             sudoku[y][x]=value
             dfs(n+1)
             sudoku[y][x]=0
