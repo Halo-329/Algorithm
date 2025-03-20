@@ -1,5 +1,7 @@
 import sys
 
+'''
+'''
 def dfs(row):
     global result
     if(row==N):
