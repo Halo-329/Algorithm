@@ -2,6 +2,7 @@
 # 문제번호 : 2630
 # 수준 : 실버2
 # 알고리즘 : 분할정복
+# 해설 : https://halo.oopy.io/1bfacfa8-9c47-8025-8a6f-dbc7f45798da
 
 import sys
 import os
