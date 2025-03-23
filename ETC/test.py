@@ -1,3 +1,5 @@
-memo=[[[False]*10]*10]*10
+start=0
+end=7
+mid=(start+end)//2
 
-print(memo[0][0][1])
+print(mid)
