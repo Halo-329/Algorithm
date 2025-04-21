@@ -44,6 +44,5 @@ for i in range(N):
 
 print(len(result))
 result.sort()
-
 for i in result:
     print(i)
