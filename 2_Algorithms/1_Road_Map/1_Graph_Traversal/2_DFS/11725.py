@@ -1,6 +1,6 @@
 import sys
 
-sys.setrecursionlimit(10**4)
+sys.setrecursionlimit(10**6)
 N=int(sys.stdin.readline())
 
 vst=[False]*(N+1)
