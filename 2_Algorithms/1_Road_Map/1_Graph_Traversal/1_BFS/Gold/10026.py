@@ -33,29 +33,6 @@ def bfs(i, j,vst,mat,cnt,k):
     else:
         cnt[1]+=1
     
-# def bfs_anormal(i, j):
-#     global anomal_cnt
-    
-#     que = deque([])
-#     que.append((i, j))
-#     anomal_vst[i][j] = True
-
-#     while que:
-#         x, y = que.popleft()
-#         for i in range(4):
-#             nx, ny = x + dx[i], y + dy[i]
-#             if nx >= 0 and ny >= 0 and nx < N and ny < N:
-#                 if mat[x][y]=='R' or mat[x][y]=='G':
-#                     if (mat[nx][ny] == 'R' or mat[nx][ny]=='G') and anomal_vst[nx][ny] == False:
-#                         que.append((nx, ny))
-#                         anomal_vst[nx][ny] = True
-#                 else:
-#                     if mat[nx][ny] == mat[x][y] and anomal_vst[nx][ny] == False:
-#                         que.append((nx, ny))
-#                         normal_vst[nx][ny] = True
-#     anomal_cnt+=1
-
-
 
 # 적록색약 X
 
