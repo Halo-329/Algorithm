@@ -1,6 +1,6 @@
 import sys
 import math
-N=int(sys.stdin.readline())
+N=int(sys.sㄹtdin.readline())
 dp=[0]*(N+1)
 
 dp[1]=0
