@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//https://velog.io/@halo_3735/11053
 
 // dp
 // 0 0 0 0 0 0 0
@@ -8,8 +9,8 @@ import java.util.Scanner;
 // 10 20 10 30 20 50
 
 
-public class Main {
-//public class P11053 {
+//public class Main {
+public class P11053 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
