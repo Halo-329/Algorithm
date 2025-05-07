@@ -12,6 +12,9 @@
       <sourceFolder url="file://$MODULE_DIR$/2_Algorithms/1_Road_Map/2_DP/Gold" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/2_Algorithms/1_Road_Map/2_DP/Silver" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ETC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_Algorithms/1_Road_Map" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_Algorithms/1_Road_Map/1_Graph_Traversal" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2_Algorithms/1_Road_Map/3_Greedy" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
