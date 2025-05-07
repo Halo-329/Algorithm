@@ -1,1 +1,9 @@
 out/
+# macOS 시스템 자동 생성 파일
+.DS_Store
+
+# IntelliJ IDEA 설정 파일
+.idea/
+
+# 입력용 테스트 파일 (로컬에서만 사용됨)
+input.txt
