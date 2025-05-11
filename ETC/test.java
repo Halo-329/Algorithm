@@ -1,16 +1,12 @@
-import java.util.LinkedList;
-import java.util.Objects;
-import java.util.Queue;
+import java.util.*;
 
 public class test {
     public static void main(String args[]) {
-        int B = 81;
-        String a = (Integer.toString(B));
+        List<List<Integer>> list = new ArrayList<>();
+        list.add(Arrays.asList(1, 2, 3, 4));
+        list.add(Arrays.asList(1, 2, 3));
 
 
-        String k = a.substring(0, a.length() - 1);
-        System.out.println(k);
-
-
+        System.out.println(list.get(1).get(2));
     }
 }
