@@ -17,7 +17,7 @@ public class P1202 {
         long res = 0;
 
         for (int i = 0; i < N; i++) {
-            st = new StringTㅎokenizer(br.readLine());
+            st = new StringTokenizer(br.readLine());
             jwe[i][0] = Integer.parseInt(st.nextToken());
             jwe[i][1] = Integer.parseInt(st.nextToken());
         }
