@@ -35,7 +35,7 @@ public class P2805 {
             if (sum > M) {
                 left = mid + 1;
             } else if (sum < M) {
-                right = mid - 1;`
+                right = mid - 1;
             } else {
                 left = mid + 1;    // 높이의 최대값을 구하기 위해 조금 더 높은 범위에서 찾아본다.
             }
