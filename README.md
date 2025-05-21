@@ -4,4 +4,6 @@
 
 
 ![Java](https://img.shields.io/badge/Language-Java-blue)
-![Solved.ac](http://mazassumnida.wtf/api/mini/generate_badge?boj=your_baekjoon_id)
+<a href="https://solved.ac/nan7789">
+  <img height="150" src="https://mazassumnida.wtf/api/v2/generate_badge?boj=nan7789" />
+  </a>
