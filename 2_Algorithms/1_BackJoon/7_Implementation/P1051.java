@@ -2,6 +2,9 @@ import java.util.*;
 import java.io.*;
 import java.lang.*;
 
+// sol
+// https://velog.io/@halo_3735/%EA%B5%AC%ED%98%84-%EB%B0%B1%EC%A4%80-1051-%EC%88%AB%EC%9E%90-%EC%A0%95%EC%82%AC%EA%B0%81%ED%98%95
+
 public class P1051 {
 
     static int N, M;
