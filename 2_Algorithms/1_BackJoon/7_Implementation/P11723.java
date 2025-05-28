@@ -18,8 +18,7 @@ public class P11723 {
         N = Integer.parseInt(st.nextToken());
 
         for (int i = 0; i < N; i++) {
-            s
-                    st = new StringTokenizer(br.readLine(), " ");
+            st = new StringTokenizer(br.readLine(), " ");
             String oper = st.nextToken();
 
             if (st.countTokens() == 1) {
