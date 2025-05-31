@@ -4,7 +4,9 @@ import java.lang.*;
 
 public class test {
     public static void main(String args[]) throws IOException {
-        System.out.println("_".repeat(4));
+        String a = "";
+
+        System.out.println(a.isEmpty());
 
     }
 }
