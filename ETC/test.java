@@ -4,28 +4,21 @@ import java.lang.*;
 
 public class test {
 
-    class Edge implements Comparable<Edge> {
-        int n;
-        int m;
-        int weight;
-
-        Edge(int n, int m, int weight) {
-            this.n = n;
-            this.m = n;
-            this.weight = n;
-        }
-
-
-        @Override
-        public int compareTo(Edge e) {
-            return this.weight - e.weight;
-        }
+    static double GetDistance(P4386.Node a, P4386.Node b) {
+        return Math.sqrt(Math.pow(Math.abs(a.x - b.x), 2) + Math.pow(Math.abs(a.y - b.y), 2));
     }
 
     public static void main(String args[]) throws IOException {
-        String a = "";
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(a.isEmpty());
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
+        double c = sc.nextDouble();
+        double d = sc.nextDouble();
 
+        P4386.Node n1 = new P4386.Node(a, b);
+        P4386.Node n2 = new P4386.Node(c, d);
+
+        System.out.println(P4386.GetDistance(n1, n2));
     }
 }
