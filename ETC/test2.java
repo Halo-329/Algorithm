@@ -6,24 +6,14 @@ public class test2 {
 
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
 
-        for (int k = 0; k < n; k++) {
-            int a, b;
-            int res = 1;
+        HashMap<String, Integer> hashMap = new HashMap<>();
 
-            a = sc.nextInt();
-            b = sc.nextInt();
+        hashMap.put("i", 1);
 
-            for (int i = 0; i < b; i++) {
-                res = (res * a) % 10;
-            }
-            if (res == 0) {
-                System.out.println(10);
-            } else {
-                System.out.println(res);
-            }
-        }
+        hashMap.replace("i", 2);
+
+        System.out.println(hashMap.get("i"));
     }
 
 
