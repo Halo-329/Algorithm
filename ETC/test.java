@@ -6,27 +6,37 @@ class test {
 
     public static void main(String args[]) {
 
-        String[] genres = {"classic", "pop", "classic", "classic", "pop"};
-        int[] plays = {500, 600, 150, 800, 2500};
-        HashMap<String, Integer> total_play_info = new HashMap<>();
-        HashMap<String, HashMap<Integer, Integer>> musics = new HashMap<>();
+        int bridge_length = 2;
+        int weight = 2;
+        int[] truck_weights = {1, 2};
 
+        Queue<Integer> bridge = new LinkedList<>();
+        int time = 0;
+        int totalWeight = 0;
+        int idx = 0;
 
-        for (int i = 0; i < genres.length; i++) {
-            String genre = genres[i];
-            int id = i;
-            int play_cnt = plays[i];
-
-            total_play_info.put(genre, total_play_info.getOrDefault(genre, 0) + plays[i]);
-            HashMap<Integer, Integer> music = musics.getOrDefault(genre, new HashMap<>());
-            music.put(id, play_cnt);
-            musics.put(genre, music);
-
-
+        // 다리 길이만큼 0으로 초기화 (빈 공간)
+        for (int i = 0; i < bridge_length; i++) {
+            bridge.offer(0);
         }
 
-        System.out.println(musics);
+        while (idx < truck_weights.length) {
+            time++;
 
+            // 다리 끝 도착한 트럭(또는 빈 공간) 제거
+            totalWeight -= bridge.poll();
 
+            // 다음 트럭이 들어올 수 있는지 확인
+            if (totalWeight + truck_weights[idx] <= weight) {
+                bridge.offer(truck_weights[idx]);
+                totalWeight += truck_weights[idx];
+                idx++;
+            } else {
+                bridge.offer(0);  // 트럭 못 들어오면 빈 공간 유지
+            }
+        }
+
+        // 마지막 트럭이 다리를 다 건너는 시간까지 추가
+        System.out.println(time + bridge_length);
     }
 }
