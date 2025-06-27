@@ -32,7 +32,6 @@ class P다리를지나는트럭 {
                     bridge.add(0);
                 }
             }
-
         }
 
 
